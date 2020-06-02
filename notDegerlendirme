@@ -1,0 +1,21 @@
+puanBir = int(input())
+
+if (puanBir < 60 and puanBir >= 0):
+    print("elendiniz"),
+
+elif (puanBir < 0 or puanBir > 100):
+    print("geçersiz puan")
+
+else:
+    print("ikinci aşamaya geçtiniz")
+
+    puaniki = int(input())
+
+    if (puaniki < 90 and puaniki >= 0):
+        print("ikinci aşamada elendiniz")
+
+    elif (puaniki < 0 or puaniki > 100):
+        print("geçersiz puan")
+
+    else:
+        print("finale kaldınız")
