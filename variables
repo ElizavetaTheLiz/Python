@@ -1,0 +1,24 @@
+
+def cikarma(a,b):
+    a= int(a)
+    b= int(b)
+    print(a-b)
+
+
+cikarma(input(),input())
+
+
+def toplama():
+    print("\n")
+    c= input()
+    d= input()
+    print("String değerler toplandığında çıktı:")
+    print(c+d)
+    c= int(c)
+    d= int(d)
+    print("Bunlar integera dönüşüp toplandığında çıktı:")
+    print(c+d)
+
+
+
+toplama()
