@@ -1,0 +1,38 @@
+"""
+list = ["elma", "şeftali", "armut"]
+
+for i in list:
+ if i == "armut":
+  break
+ print(i)
+"""
+
+
+
+#continue komutu, sonraki elemana geçirir. Yani i== "armut" ise printe geçilmez, önce for tekrar çalışacaktır(armut için).
+list = ["elma", "şeftali", "armut"]
+
+for i in list:
+ if i == "armut":
+  continue
+ print(i)
+
+
+print("\n \n")
+
+
+for a in range(1,11,2):
+ print("sayımız ", a, " ikişer ikişer artmaya devam ediyor.")
+
+
+
+
+print("\n \n")
+
+
+
+
+rengim = "kırmızı"
+for a in rengim:
+ print(a)
+ a += a
