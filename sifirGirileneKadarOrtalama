@@ -1,0 +1,30 @@
+for i in range(1,7):
+    for a in range(0,i):
+        print(i)
+    print("\n")
+
+
+
+
+print("\n\n")
+
+
+
+#100den büyük 0dan küçük bir değer girilene kadar, girilen tüm sayıların ortalamasını alan kod
+a= int(0)
+b= int(0)
+while True:
+    c = int(input())
+    if (c <=100 and c >= 0):
+        a = a + c
+        b+=1
+    else:
+        print("ortalama: ", a / b)
+        break
+
+
+
+a= 50
+while (a > 0):
+    print(a)
+    a-=1
