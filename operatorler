@@ -1,0 +1,40 @@
+a = 4
+b = 3
+
+#anın bye bölümünden kalan kaçtır
+c = a % b
+print(a, "'ün ", b, "'e bölümünden kalan: ", c)
+
+# a üssü b kaçtır
+d = a ** b
+print(a, "üzeri ", b, "'nin sonucu: ", d)
+
+#kalanlı bölme
+e = a / b
+print(a, "'nın ", b, "'e bölümünün sonucu: ", e)
+
+#kalansız bölme
+f = a // b
+print(a, "'nın ", b, "'e bölümünün kalansız sonucu: ", f)
+print("\n")
+
+
+
+
+
+
+
+#sayı tek mi çift mi
+g = int(input())
+h = g % 2
+if h == 0:
+    print("sayı çifttir")
+else:
+    print("sayı tektir")
+print("\n")
+
+
+
+
+i = "muz "
+print(i*a)
